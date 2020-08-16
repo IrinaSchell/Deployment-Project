@@ -7,6 +7,7 @@ First, start by logging in to the AWS console, opening the SageMaker dashboard a
 You may choose any name you would like for your notebook. A ml.t2.medium is used to launch the notebook and is available by default. Inside the notebook ml.p2.xlarge is used for training a model and ml.m4.xlarge is used for deployment. These instance may not be available to all users by default. If you haven't requested ml.p2.xlarge so far please follow the instructions on the next page to request it now.
 
 Next, under IAM role select Create a new role. You should get a pop-up window that looks like the one below. The only change that needs to be made is to select None under S3 buckets you specify, as is shown in the image below.
+![picture](create-an-iam-role.png)
 
 Create an IAM role dialog box
 Once you have finished setting up the role for your notebook, your notebook instance settings should look something like the image below.
