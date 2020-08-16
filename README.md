@@ -11,6 +11,8 @@ Next, under IAM role select Create a new role. You should get a pop-up window th
 
 Create an IAM role dialog box
 Once you have finished setting up the role for your notebook, your notebook instance settings should look something like the image below.
+![picture](notebook-instance-settings.png)
+
 
 Notebook instance settings
 Note that your notebook name may be different than the one displayed and the IAM role that appears will be different.
@@ -19,6 +21,8 @@ Next, scroll down to the section labelled Git repositories. Here you will clone 
 
 Once you have filled in all of the required values, the settings should look as so:
 
+![picture](clone-git-repo-sagemaker.png)
+
 
 You're done! Click on Create notebook instance.
 
@@ -26,5 +30,6 @@ Your notebook instance is now set up and ready to be used!
 
 Once the Notebook instance has loaded, you will see a screen resembling the following.
 
+![picture](sagemaker-open-jupyter.png)
 
 You can access your notebook using the Action "Open Jupyter".
